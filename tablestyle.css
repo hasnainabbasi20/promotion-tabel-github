@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(7, 113, 159, 0.985);
+}
+span{
+    color: rgb(12, 207, 207);
+    display:inline-block;
+    text-align: center;
+    
+}
+#h{
+    color: gold;
+    text-align: center;
+}

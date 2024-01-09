@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: poppin-regular;
+    src: url(font/Poppins-Regular.ttf);
+}
+body{
+    background-color: black;
+    color: white;  
+}
+h1{
+    color: azure;
+    text-align: center;
+}
+    
+
+table,th,td{
+    border: 1px solid rgba(255, 254, 254, 0.488);
+    border-spacing: 0px;
+  
+}
+table{
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    font-family: poppin-regular;
+}
+th{
+    height: 20%;
+}
+td{
+    text-align: center;  
+}
+td:hover{
+        background-color: rgb(254, 251, 251);
+        color:black;
+        transform:scale(1.1);
+        transition:3s ;
+        cursor: pointer;
+        text-transform:uppercase;
+}
+#head1{
+    background-color:rgb(253, 253, 249);
+    color: black;
+    border-color: black;
+     
+}
+#head1:hover{
+   cursor: pointer;
+    transition: 2s;
+    text-transform:uppercase;
+    transform: scale(1.1);
+}
+#head2{
+    background-color:rgb(218, 110, 22);
+    color: black;
+    border-color: black;
+}
+#head2:hover{
+   cursor: pointer;
+    transition: 2s;
+    transform:scale(1.1);
+    text-transform:uppercase;
+}
+#head3{
+    background-color:rgb(247, 10, 10);
+    color: black;
+    border-color: black;
+}
+#head3:hover{
+    cursor: pointer;
+    transition: 2s;
+    transform:scale(1.1);
+    text-transform:uppercase;
+}
+#head4{
+    background-color:rgb(81, 18, 215);
+    color: black;
+    border-color: black;
+}
+#head4:hover{
+   transition: 2s;
+    transform:scale(1.1);
+    cursor: pointer;
+    text-transform:uppercase;
+}
+#head5{
+    background-color:rgb(31, 212, 240);
+    color: black;
+    border-color: black;
+}
+#head5:hover{
+   cursor: pointer;
+    transition: 2s;
+    transform:scale(1.1);
+    text-transform:uppercase;
+}
+#a1{
+    color: rgb(240, 146, 14);  
+    font-size: large;
+    font-weight: bold; 
+}
+#a2{
+    color: rgb(252, 9, 9);  
+    font-size: large;
+    font-weight: bold; 
+}
+#a3{
+    color: rgba(31, 212, 240, 0.902);  
+    font-size: large;
+    font-weight: bold; 
+}
+button{
+    width: 120px;
+    padding: 15px;
+    border-radius: 30%;
+    background-color: red;
+}
+button:hover{
+    cursor: pointer;
+    transition: 2s;
+    transform: scale(1.1);
+    text-transform: uppercase;
+}
+
+
